@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BHT Club</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #0d1b2a;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      padding: 10px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: #ffd700;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.95em;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images.jpg') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+    }
+    .hero h1 {
+      font-size: 2.8em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      max-width: 600px;
+    }
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .section p {
+      font-size: 1.1em;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .cta {
+      background-color: #0d1b2a;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .cta a {
+      background-color: #ffd700;
+      color: #0d1b2a;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background-color: #e6c200;
+    }
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    .image-gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    footer {
+      background-color: #1b263b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://images.unsplash.com/photo-1612831455543-3e705504e9b3?auto=format&fit=crop&w=100&q=80" alt="BHT Club Logo" />
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#join">Join</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to BHT Club</h1>
+    <p>The best and most trusted gaming platform</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>What is BHT Club?</h2>
+    <p>BHT Club is an opportunity-based platform offering bonuses, salary programs, and rewards to agents and members who participate and invite others.</p>
+  </section>
+
+  <section id="features" class="section">
+    <h2>Agent Benefits & Bonus Programs</h2>
+    <div class="image-gallery">
+      <img src="https://i.imgur.com/r1XAeCI.jpeg" alt="Downline Bonus">
+      <img src="https://i.imgur.com/iyIxOYn.jpeg" alt="Invitation Bonus">
+      <img src="https://i.imgur.com/TOTkIec.jpeg" alt="Daily Salary System">
+      <img src="https://i.imgur.com/7X5qgBi.jpeg" alt="May Recharge Bonus">
+      <img src="https://i.imgur.com/ZMWq213.jpeg" alt="Promotional Poster">
+      <img src="https://i.imgur.com/7mOnUVy.jpeg" alt="New Promo Poster">
+      <img src="https://i.imgur.com/J8PGpUw.jpeg" alt="Promotional Poster 2">
+      <img src="https://i.imgur.com/w9vvBnm.jpeg" alt="Extra Promo Poster">
+      <img src="https://i.imgur.com/FnZJrGw.jpeg" alt="Extra Poster FnZJrGw">
+    </div>
+  </section>
+
+  <section id="join" class="cta">
+    <h2>Join Now and Start Earning with BHT Club!</h2>
+    <a href="https://bhtigerclub.com/#/register?invitationCode=767613161580" target="_blank">Register Now</a>
+  </section>
+
+  <footer>
+    &copy; 2025 BHT Club. All rights reserved.
+  </footer>
+</body>
+</html>
